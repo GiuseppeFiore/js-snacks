@@ -4,3 +4,11 @@
 
 const a = Number(prompt("Inserisci il primo numero:"));
 const b = Number(prompt("Inserisci il secondo numero:"));
+
+if (a > b) {
+    console.log("Il maggiore è: " + a);
+} else if (b > a) {
+    console.log("Il maggiore è: " + b);
+} else {
+    console.log("I due numeri sono uguali: " + a);
+}
